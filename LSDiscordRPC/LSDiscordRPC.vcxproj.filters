@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="DiscordRPC.cpp" />
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp">
+      <Filter>DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp">
+      <Filter>DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp">
+      <Filter>DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp">
+      <Filter>DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\serialization.cpp">
+      <Filter>DiscordSDK\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DiscordSDK\src\backoff.h">
+      <Filter>DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\connection.h">
+      <Filter>DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\msg_queue.h">
+      <Filter>DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h">
+      <Filter>DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\serialization.h">
+      <Filter>DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\include\discord_rpc.h">
+      <Filter>DiscordSDK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\include\discord_register.h">
+      <Filter>DiscordSDK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordRPC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DiscordSDK">
+      <UniqueIdentifier>{9257c197-3f0a-4643-be35-cc4d091549fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordSDK\Include">
+      <UniqueIdentifier>{cfe4eb35-0efe-4f59-9880-662029faff60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DiscordSDK\Src">
+      <UniqueIdentifier>{f664ff72-7c0f-4087-aacb-273ec9a4bab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6a7331c0-8b31-460c-ae2d-da33761b2e74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
